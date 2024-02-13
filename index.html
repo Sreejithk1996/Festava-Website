@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festava Live</title>
+
+     <!-- font awesome style -->
+
+    <script src="https://kit.fontawesome.com/90811cc2ed.js" crossorigin="anonymous"></script>
+    
+    <!-- responsive style -->
+
+    <link rel="stylesheet" href="./style.css">
+    
+    <!-- Google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+    <section class="main-banner-section">   
+
+        <!-- Header Section Starts -->
+
+        <header class="site-header">
+            <i class="fa-regular fa-user" style="color: #ee5007;"></i>
+            <p>Welcome to Music Festival 2023</p>
+        </header>
+
+        <!-- End of header section -->
+
+        <!-- Banner Section Starts -->
+
+        <section class="banner">
+
+            <!-- Nav Section Starts -->
+
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="#">Festava Live</a>
+                </div>
+                <div class="menu-content">
+                    <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                    <a class="menu-items current-page" href="./index.html">Home</a>
+                    <a class="menu-items" href="#section2">About</a>
+                    <a class="menu-items" href="#">Artists</a>
+                    <a class="menu-items" href="#">Schedule</a>
+                    <a class="menu-items" href="#">Pricing</a>
+                    <a class="menu-items" href="#">Contact</a>
+                    <button class="buy-ticket">Buy Ticket</button>
+                </div>
+            </nav>
+
+            <!-- End of Nav section -->
+
+            <!-- Video Section Starts -->
+
+            <div class="bg-video">
+                <video autoplay loop muted src="./Assets/video/pexels_videos_2022395 (720p).mp4"></video>
+            </div>
+
+            <!-- End of Video section -->
+
+            <!-- Banner-Content Section Starts -->
+
+            <div class="banner-content">
+                <div class="banner-1">
+                    <p>FESTAVA LIVE PRESENTS</p>
+                    <h1>Night Live 2023</h1>
+                    <button>Let's Begin</button>
+                </div>
+                <div class="banner-2">
+                    <div class="date">
+                        <i class="fa-regular fa-clock" style="color: #ee5007;"></i>
+                        <h5> 10 - 12th, Dec 2023</h5>
+                    </div>
+                    <div class="venue">
+                        <i class="fa-solid fa-location-dot" style="color: #ee5007;"></i>
+                        <h5> National Center, United States</h5>
+                    </div>
+                    <div class="social">
+                        <p>Share:</p>
+                        <div class="facebook">
+                            <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="twitter">
+                            <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="instagram">
+                            <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- End of Banner-Content section -->
+            
+        </section>
+
+        <!-- End of Banner section -->
+    </section>
+
+    <section class="about-festava" id="section2">
+        <div class="about">
+            <div class="about-1">
+                <div class="firstpara">
+                    <h1>About Festava 2022</h1>
+                    <p>Festava Live is free CSS template provided by TemplateMo website. This layout is built on Bootstrap v5.2.2 CSS library. You are free to use this template for your commercial website.</p>
+                </div>
+                <div class="secondpara">
+                    <h5>Once in Lifetime Experience</h5>
+                    <p>You are not allowed to redistribute the template ZIP file on any other website without a permission.</p>
+                </div>
+                <div class="thirdpara">
+                    <h5>Whole Night Party</h5>
+                    <p>Please tell your friends about our website. Thank you.</p>
+                </div>
+            </div>
+            <div class="about-2">
+                <img src="./Assets/images/pexels-alexander-suhorucov-6457579.jpg" alt="image">
+                <div class="inner-content">
+                    <div class="inner-icon">
+                        <i class="fa-regular fa-user" style="color: #171717;"></i>
+                    </div>
+                    <div class="inner-text">
+                        <h1>a happy moment</h1>
+                        <p>your amazing festival experience with us</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <script>
+        let menus = document.querySelectorAll('.menu-items');
+        menus.forEach(menus => {
+            menu.addEventListener('click', function() {
+                menus.forEach(men.classList.remove('current-page'))
+                this.classList.add('current-page');
+            });
+        });
+    </script>
+    
+
+</body>
+</html>
